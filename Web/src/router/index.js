@@ -7,7 +7,7 @@ const router = createRouter({
     {
       path: '/',
       name: '',
-      component: () => import('../views/IndexView.vue')
+      component: () => import('../views/LoginView.vue')
     },
     {
       path: '/home',
@@ -15,7 +15,7 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/login',
+      path: '/',
       name: 'login',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route

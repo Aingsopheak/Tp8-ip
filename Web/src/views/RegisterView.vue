@@ -11,7 +11,7 @@ import { RouterLink } from 'vue-router'
                 <h1>Welcome</h1>
                 <h4>Autentication App</h4>
                 <div class="action">
-                    <p><RouterLink to="/login" style="color:black; text-decoration:none">Login</RouterLink></p>
+                    <p><RouterLink to="/" style="color:black; text-decoration:none">Login</RouterLink></p>
                     <p><RouterLink to="/register" style="color:black; text-decoration:none; color:rgb(68, 119, 68); cursor: pointer">Register</RouterLink></p>
                 </div>
             </div>
